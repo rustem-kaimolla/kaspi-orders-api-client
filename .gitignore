@@ -1,0 +1,7 @@
+/vendor
+/.git
+/.subversion
+/docker
+/docker-compose.yml
+/Makefile
+/.idea

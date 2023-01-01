@@ -1,0 +1,27 @@
+{
+  "name": "rustem-kaimolla/laravel-kaspi-orders-api",
+  "description": "API для продавцов Kaspi Магазина – программный интерфейс, который предназначен для получения информации о заказах и сопутствующих данных, поступивших через платформу Kaspi Магазина. Данный программный интерфейс соответствует спецификации JSON API. Спецификация описывает процесс взаимодействия клиент серверных систем, построенных на базе формата сообщений JSON и протокола передачи гипертекста (HTTP).",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rustem Kaimolla",
+      "email": "rustem@exact.kz"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "RustemKaimolla\\KaspiOrdersApi\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.1",
+    "guzzlehttp/guzzle": "^7.5",
+    "nesbot/carbon": "^2.64"
+  },
+  "config": {
+    "platform": {
+      "php": "8.1"
+    }
+  }
+}
